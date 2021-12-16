@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Site</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+    integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+    integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous">
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin:wght@300&family=Titillium+Web&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <h1 class="alert-danger text-center">NASA</h1>
+  <main class="d-flex justify-content-around row">
+    <section class="card" style="width: 80vw;">
+      <div class="container">
+        <h2 id="title"></h2>
+        <p id="date"></p>
+        <figure class="d-flex justify-content-center">
+          <img id="image" width="auto" height="500px">
+        </figure>
+        <figcaption id="beschreibung" class="p-3"></figcaption>
+        <div class="d-inline-flex author">
+          <p>Author:&nbsp;</p>
+          <p id="copyright"></p>
+        </div>
+        <p id="date"></p>
+      </div>
+    </section>
+    <!-- <section class="card" style="width: 38rem;">
+      <div class="container">
+        <h2 id="titles"></h2>
+        <p id="dates"></p>
+        <figure class="d-flex justify-content-center">
+          <img id="results" width="auto" height="500px">
+        </figure>
+        <figcaption id="results" class="p-3"></figcaption>
+
+        <div class="d-inline-flex author">
+          <p>Author:&nbsp;</p>
+          <p id="copyrights"></p>
+        </div>
+
+      </div>
+    </section> -->
+    <section class="d-flex">
+      <p class="container" id=""></p>
+    </section>
+  </main>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.24.0/axios.min.js"></script>
+  <script src="index.js"> </script>
+
+</body>
+
+</html>
